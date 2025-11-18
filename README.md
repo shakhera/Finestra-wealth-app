@@ -5,7 +5,7 @@ A modern and responsive UI project built using **React**, **Tailwind CSS**, and 
 ## 🔧 Tech Stack
 - React.js  
 - Tailwind CSS  
-- Shadcn UI / Radix UI  
+- Shadcn UI   
 - Lucide Icons  
 
 ## ✨ Features
@@ -17,4 +17,4 @@ A modern and responsive UI project built using **React**, **Tailwind CSS**, and 
 ## 📦 Installation
 ```bash
 npm install
-npm start
+npm run dev
