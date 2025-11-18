@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "../../components/ui/button";
+import { FaAngleRight } from "react-icons/fa";
 
 const AccountSection = () => {
   return (
     <section className="w-full bg-white py-3 px-5 relative">
       <div className="relative w-full h-[1366px]">
-        {/* Background */}
-        <div className="absolute inset-0 bg-[#f7f7f7] rounded-[24px]"></div>
+        <div className="absolute inset-0 bg-[#f7f7f7] rounded-3xl"></div>
 
         <div className="relative z-10 flex flex-col gap-[100px] justify-start items-center w-full h-auto px-4 sm:px-6 lg:px-[106px] py-[121px]">
           {/* Main Content Row */}
@@ -15,7 +15,7 @@ const AccountSection = () => {
             <div className="w-full lg:w-[44%] bg-[#eaeaea8e] rounded-[40px] p-8 lg:p-14">
               <div className="flex flex-col gap-2 justify-center items-center w-full h-auto">
                 {/* Connected Account Card */}
-                <div className="bg-white rounded-[16px] p-5 w-full">
+                <div className="bg-white rounded-2xl p-5 w-full">
                   <div className="flex justify-center items-center w-full">
                     <span className="text-base font-medium leading-normal text-left text-[#000000] font-[Inter]">
                       Connected Account
@@ -24,11 +24,7 @@ const AccountSection = () => {
                       <span className="text-sm font-medium leading-[17px] text-left text-[#6b7280] font-[Inter]">
                         View All
                       </span>
-                      <img
-                        src="/images/img_icon_line_chevron_right.svg"
-                        alt="Arrow"
-                        className="w-4 h-4 ml-2"
-                      />
+                      <FaAngleRight className="w-4 h-4 ml-2" />
                     </div>
                   </div>
 

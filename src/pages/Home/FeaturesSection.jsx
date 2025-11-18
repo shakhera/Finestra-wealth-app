@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { Button } from "../../components/ui/button";
-import { BarChart2, ChartBar, LineChart, Plus, Settings } from "lucide-react";
+import { BarChart2, LineChart, Plus } from "lucide-react";
 import { FaAngleRight } from "react-icons/fa";
 
 const FeaturesSection = () => {
